@@ -1,0 +1,10 @@
+{
+	"id": "nodebb-plugin-meteor-email-account",
+	"name": "NodeBB Override Login with Meteor Accounts Emails",
+	"description": "UUse Meteor accounts with only email instead of NodeBB Login",
+	"url": "https://github.com/Codebrahma/nodebb-plugin-meteor-email-account",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "action:auth.overrideLogin", "method": "setupLogin" }
+	]
+}

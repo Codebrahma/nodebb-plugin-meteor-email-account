@@ -1,0 +1,41 @@
+{
+  "name": "nodebb-plugin-meteor-email-account",
+  "version": "0.0.1",
+  "description": "Use Meteor accounts with only email instead of NodeBB Login",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codebrahma/nodebb-plugin-meteor-email-account"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "override",
+    "login",
+    "meteor",
+    "account",
+    "email"
+  ],
+  "author": {
+    "name": "Amogh Esturi",
+    "email": "amogh@codebrahma.com"
+  },
+  "license": "GPL",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "mongodb": "^2.0.47",
+    "sha256": "^0.2.0"
+  },
+  "nbbpm": {
+    "compatibility": "^0.8.0",
+    "index": false
+  },
+  "homepage": "https://github.com/Codebrahma/nodebb-plugin-meteor-email-account",
+  "maintainers": [
+    {
+      "name": "Amogh Esturi",
+      "email": "amogh@codebrahma.com"
+    }
+  ],
+  "readme": "ERROR: No README data found!"
+}
