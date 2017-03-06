@@ -22,7 +22,6 @@
       var mongoClient = require('mongodb').MongoClient;
       var userAccount, uid;
       var meteorAccountsDbUrl = nconf.get('meteorAccountsDbUrl');
-      console.log(meteorAccountsDbUrl);
 
       async.waterfall([
         function(next) {
